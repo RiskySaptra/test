@@ -52,7 +52,7 @@ export default function Appbar({ item }) {
           </div>
           <div className="hidden lg:flex">
             <button
-              className="text-black-medium background-transparent font-bold px-4 py-2 text-s outline-none focus:outline-none mr-10 mb-1 ease-linear transition-all duration-150 hover:opacity-75 shadow active:shadow-lg"
+              className="text-black-medium background-transparent font-bold px-4 py-2 text-s outline-none focus:outline-none mr-10 mb-1 ease-linear transition-all duration-150 hover:opacity-75"
               type="button"
             >
               Masuk

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Appbar from "../components/AppBar";
+import BotomNavigation from "../components/BottomNavigation";
 import Carousell from "../components/Carousell";
 import Footer from "../components/Footer";
 import TrendingCard from "../components/TrendingCard";
@@ -90,7 +91,7 @@ export default function Home() {
       <div className="mt-10 container px-4 mx-auto flex flex-col items-center">
         <div>
           <button
-            className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-4 rounded-full shadow-lg active:shadow-xl outline-none focus:outline-none mr-5 mb-[200px] ease-linear transition-all duration-150"
+            className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-4 rounded-full shadow-lg active:shadow-xl outline-none focus:outline-none mr-5 mb-[80px] ease-linear transition-all duration-150"
             type="button"
           >
             ALL Receipt
@@ -107,6 +108,7 @@ export default function Home() {
           </h1>
         </div>
       </div>
+      <BotomNavigation />
     </>
   );
 }
