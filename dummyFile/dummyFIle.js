@@ -1,8 +1,8 @@
-import cupcake from "../public/icon/cupcake.png";
-import doughnut from "../public/icon/doughnut.png";
-import kebab from "../public/icon/kebab.png";
-import pizza from "../public/icon/pizza.png";
-import salmon from "../public/icon/salmon.png";
+import cupcake from "../public/icon/cupcake.svg";
+import doughnut from "../public/icon/doughnut.svg";
+import kebab from "../public/icon/kebab.svg";
+import pizza from "../public/icon/pizza.svg";
+import salmon from "../public/icon/salmon.svg";
 
 import one from "../public/items/1.png";
 import two from "../public/items/2.png";
