@@ -61,7 +61,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="mt-10 container px-4 mx-auto flex flex-wrap flex-col">
         <h1 className="text-1l lg:text-3xl font-medium leading-none text-black-medium mb-2">
           Browser Our Category
@@ -70,11 +69,9 @@ export default function Home() {
           Receipt
         </h1>
       </div>
-
       <div className="container lg:px-4 mx-auto flex flex-wrap flex-col">
         <Carousell cardItem={categoryreceipt} />
       </div>
-
       <div className="mt-10 container px-4 mx-auto flex flex-wrap flex-col">
         <h1 className="text-1l lg:text-3xl font-medium leading-none text-black-medium mb-2">
           Browser Our Trending
@@ -83,11 +80,9 @@ export default function Home() {
           Receipt
         </h1>
       </div>
-
       <div className="mt-10 container px-4 mx-auto flex flex-col">
         <TrendingCard cardItem={trendingreceipt} />
       </div>
-
       <div className="mt-10 container px-4 mx-auto flex flex-col items-center">
         <div>
           <button
@@ -98,9 +93,15 @@ export default function Home() {
           </button>
         </div>
       </div>
-
-      <div className="hidden lg:flex mt-10 container px-4 mx-auto mb-[200px]">
+      <div className="hidden lg:flex mt-10 container px-4 mx-auto">
         <Footer />
+      </div>
+      <div className="text-sm mt-10 container px-4 mx-auto flex flex-col items-center mb-10">
+        <div>
+          <h1 className="uppercase text-grey-500">
+            © 2021 Elemes id. All rights reserved
+          </h1>
+        </div>
       </div>
     </>
   );

@@ -22,7 +22,7 @@ export default function Footer() {
             Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950
           </p>
         </div>
-        <div className="">
+        <div>
           <p className="text-xl font-medium leading-relaxed` text-gray-800 mb-10">
             Categories
           </p>
@@ -42,7 +42,7 @@ export default function Footer() {
             Dougnut
           </p>
         </div>
-        <div className="">
+        <div>
           <p className="text-xl font-medium leading-relaxed` text-gray-800 mb-10">
             About Us
           </p>
