@@ -20,7 +20,7 @@ module.exports = {
         sans: ["Rubik", ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        default: "url('../public/background.svg')",
+        default: "url('../public/background.png')",
       },
     },
   },

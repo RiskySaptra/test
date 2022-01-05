@@ -9,10 +9,10 @@ import {
   trendingreceipt,
 } from "../dummyFile/dummyFIle";
 
-// import banner from "/Banner.svg";
+import banner from "/Banner.png";
 
 const Banner = () => (
-  <Image src={"/Banner.svg"} width={500} height={500} alt="banners" />
+  <Image src={banner} width={500} height={500} alt="banners" />
 );
 
 export default function Home() {
