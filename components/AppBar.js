@@ -23,7 +23,7 @@ export default function Appbar({ item }) {
             <div className="flex items-center lg:hidden">
               <div>
                 <button
-                  className="bg-green-elmes text-white active:bg-green-elmes font-bold text-[12px] px-2 py-1 rounded-full shadow active:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
+                  className="bg-green-elmes text-white active:bg-green-elmes font-bold text-sm px-3 py-2 lg:text-[12px] lg:px-2 lg:py-1 rounded-full shadow active:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
                   type="button"
                 >
                   Daftar Sekarang
