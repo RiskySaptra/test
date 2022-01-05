@@ -101,7 +101,7 @@ export default function Home() {
       <div className="hidden lg:flex mt-10 container px-4 mx-auto">
         <Footer />
       </div>
-      <div className="text-sm mt-10 container px-4 mx-auto flex flex-col items-center">
+      <div className="text-sm mt-10 container px-4 mx-auto flex flex-col items-center mb-10">
         <div>
           <h1 className="uppercase text-grey-500">
             © 2021 Elemes id. All rights reserved
