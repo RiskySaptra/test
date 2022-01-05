@@ -10,7 +10,10 @@ import {
 } from "../dummyFile/dummyFIle";
 
 import banner from "../public/Banner.svg";
-import banners from "../public/Banner.svg";
+
+const Banner = () => (
+  <Image src={banner} width={500} height={500} alt="banners" />
+);
 
 export default function Home() {
   return (
@@ -26,12 +29,7 @@ export default function Home() {
               <div className="flex justify-center pb-10 lg:hidden">
                 <div className="bg-gray-100/70 p-[40px] rounded-full">
                   <div className="flex">
-                    <Image
-                      src={banners}
-                      width={400}
-                      height={400}
-                      alt="banner"
-                    />
+                    <Banner />
                   </div>
                 </div>
               </div>
@@ -60,7 +58,7 @@ export default function Home() {
             <div className="flex justify-center pb-10">
               <div className="bg-gray-100/70 p-[60px] rounded-full">
                 <div className="flex">
-                  <Image src={banner} width={500} height={500} alt="banners" />
+                  <Banner />
                 </div>
               </div>
             </div>
