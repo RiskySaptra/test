@@ -6,7 +6,7 @@ export default function CarousellItem({ carousellItem }) {
   return (
     <>
       <div
-        className={`flex flex-col justify-center items-center w-[240px] h-[200px] hover:w-[250px] hover:h-[210px] m-5 hover:m-[15px] scroll-ml-2 hover:scroll-ml-[3px] snap-start rounded-lg `}
+        className={`flex flex-col justify-center items-center w-[240px] h-[200px] hover:w-[250px] hover:h-[210px] m-5 hover:m-[15px] snap-center rounded-lg `}
         style={{ backgroundColor: color }}
       >
         <div className="flex">
