@@ -9,7 +9,7 @@ export default function CarousellItem({ carousellItem }) {
         className={`flex flex-col justify-center w-[180px] h-[140px] hover:w-[190px] hover:h-[150px] m-2 hover:m-[3px] scroll-ml-2 hover:scroll-ml-[3px] snap-start rounded-lg `}
         style={{ backgroundColor: color }}
       >
-        <Image src={image} width={40} height={40} alt="banner" />
+        <Image src={image} width={40} height={40} alt={item} />
         <div className="mt-3">
           <p className="text-center text-sm font-medium text-black-medium">
             {item}
