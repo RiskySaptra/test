@@ -1,5 +1,5 @@
 ## live website here
-[houshre.my.id](https://houshare.my.id/)
+[houshare.my.id](https://houshare.my.id/)
 
 
 ## Deploy on Vercel
