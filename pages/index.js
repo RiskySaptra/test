@@ -9,7 +9,7 @@ import {
   trendingreceipt,
 } from "../dummyFile/dummyFIle";
 
-import banner from "/Banner.png";
+import banner from "../public/Banner.png";
 
 const Banner = () => (
   <Image src={banner} width={500} height={500} alt="banners" />
