@@ -41,13 +41,13 @@ export default function Home() {
             </div>
             <div>
               <button
-                className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-2 rounded-full shadow-lg hover:shadow-xl outline-none focus:outline-none mr-5 mb-5 ease-linear transition-all duration-150"
+                className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-2 rounded-full shadow active:shadow-xl outline-none focus:outline-none mr-5 mb-5 ease-linear transition-all duration-150"
                 type="button"
               >
                 Daftar Sekarang
               </button>
               <button
-                className="bg-gray-200 text-black-medium active:bg-green-elmes text-md px-4 py-2 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                className="bg-gray-200 text-black-medium active:bg-green-elmes text-md px-4 py-2 rounded-full shadow active:shadow-lg active:text-white outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
                 About Us
@@ -90,7 +90,7 @@ export default function Home() {
       <div className="mt-10 container px-4 mx-auto flex flex-col items-center">
         <div>
           <button
-            className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-4 rounded-full shadow-lg hover:shadow-xl outline-none focus:outline-none mr-5 mb-[200px] ease-linear transition-all duration-150"
+            className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-4 rounded-full shadow-lg active:shadow-xl outline-none focus:outline-none mr-5 mb-[200px] ease-linear transition-all duration-150"
             type="button"
           >
             ALL Receipt

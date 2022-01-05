@@ -23,7 +23,7 @@ export default function Appbar({ item }) {
             <div className="flex items-center lg:hidden">
               <div>
                 <button
-                  className="bg-green-elmes text-white active:bg-green-elmes font-bold text-[12px] px-2 py-1 rounded-full shadow hover:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
+                  className="bg-green-elmes text-white active:bg-green-elmes font-bold text-[12px] px-2 py-1 rounded-full shadow active:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
                   type="button"
                 >
                   Daftar Sekarang
@@ -52,13 +52,13 @@ export default function Appbar({ item }) {
           </div>
           <div className="hidden lg:flex">
             <button
-              className="text-black-medium background-transparent font-bold px-4 py-2 text-s outline-none focus:outline-none mr-10 mb-1 ease-linear transition-all duration-150 hover:opacity-75"
+              className="text-black-medium background-transparent font-bold px-4 py-2 text-s outline-none focus:outline-none mr-10 mb-1 ease-linear transition-all duration-150 hover:opacity-75 shadow active:shadow-lg"
               type="button"
             >
               Masuk
             </button>
             <button
-              className="bg-green-elmes text-white active:bg-green-elmes font-bold text-s px-4 py-2 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              className="bg-green-elmes text-white active:bg-green-elmes font-bold text-s px-4 py-2 rounded-full shadow active:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
               type="button"
             >
               Daftar Sekarang

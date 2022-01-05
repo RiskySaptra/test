@@ -6,17 +6,17 @@ export default function CarousellItem({ carousellItem }) {
   return (
     <>
       <div
-        className={`flex flex-col justify-center items-center w-[180px] h-[140px] hover:w-[190px] hover:h-[150px] m-2 hover:m-[3px] scroll-ml-2 hover:scroll-ml-[3px] snap-start rounded-lg `}
+        className={`flex flex-col justify-center items-center w-[240px] h-[200px] hover:w-[250px] hover:h-[210px] m-5 hover:m-[15px] scroll-ml-2 hover:scroll-ml-[3px] snap-start rounded-lg `}
         style={{ backgroundColor: color }}
       >
         <div className="flex">
-          <img {...image} width={40} height={40} alt={item} />
+          <img {...image} width={60} height={60} alt={item} />
         </div>
-        <div className="mt-3">
-          <p className="text-center text-sm font-medium text-black-medium">
+        <div className="mt-4">
+          <p className="text-center text-md font-medium text-black-medium">
             {item}
           </p>
-          <p className="text-center text-xs text-black-medium">{qty} Items</p>
+          <p className="text-center text-sm text-black-medium">{qty} Items</p>
         </div>
       </div>
     </>
