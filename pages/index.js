@@ -25,7 +25,7 @@ export default function Home() {
               <div className="flex justify-center pb-10 lg:hidden">
                 <div className="bg-gray-100/70 p-[40px] rounded-full">
                   <div className="flex">
-                    <Image src={banner} alt="banner" />
+                    <Image src={banner} width={400} height={400} alt="banner" />
                   </div>
                 </div>
               </div>
@@ -37,13 +37,13 @@ export default function Home() {
             </div>
             <div>
               <button
-                className="bg-green-elmes text-white active:bg-green-elmes font-bold text-xs px-5 py-2 rounded-full shadow-lg hover:shadow-xl outline-none focus:outline-none mr-5 mb-5 ease-linear transition-all duration-150"
+                className="bg-green-elmes text-white active:bg-green-elmes font-bold text-md px-5 py-2 rounded-full shadow-lg hover:shadow-xl outline-none focus:outline-none mr-5 mb-5 ease-linear transition-all duration-150"
                 type="button"
               >
                 Daftar Sekarang
               </button>
               <button
-                className="bg-gray-200 text-black-medium active:bg-green-elmes text-xs px-4 py-2 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                className="bg-gray-200 text-black-medium active:bg-green-elmes text-md px-4 py-2 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
                 About Us
@@ -54,7 +54,7 @@ export default function Home() {
             <div className="flex justify-center pb-10">
               <div className="bg-gray-100/70 p-[60px] rounded-full">
                 <div className="flex">
-                  <Image src={banner} alt="banner" />
+                  <Image src={banner} width={500} height={500} alt="banner" />
                 </div>
               </div>
             </div>
