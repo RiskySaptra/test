@@ -1,0 +1,7 @@
+node_modules
+build
+.next
+.dockerignore
+Dockerfile
+Dockerfile.prod
+README.md
